@@ -15,3 +15,5 @@
 
 
 ### Screen Shots
+![Alt text](https://github.com/SAMBIT20/CN-AlaramClock/blob/main/assets/22.png)
+![Alt text](https://github.com/SAMBIT20/CN-AlaramClock/blob/main/assets/33.png)
