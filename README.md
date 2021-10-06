@@ -12,3 +12,6 @@
 
 ### Live preview
 [Click Me](https://cn-alaramclock.netlify.app/)
+
+
+### Screen Shots
