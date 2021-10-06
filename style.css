@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./assets/background.webp");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+}
+/* TIme  Design*/
+h1 {
+  font-size: 100px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #ffff;
+}
+
+/* Alram Input */
+
+.container {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.set-time-input {
+  font-family: "Lato", sans-serif;
+  width: 30rem;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(201, 33, 201);
+  font-weight: 600;
+  cursor: pointer;
+}
+.set-time-input:hover {
+  border: 2px solid purple;
+}
+.controls {
+  margin-top: 16px;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.set-alarm {
+  background-color: #a80092;
+  padding: 12px;
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.set-alarm:hover {
+  background-color: rgb(146, 60, 143);
+}
+
+
+
+/* Alaram List  */
+
+#list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 31%;
+}
+.list-item {
+  cursor: pointer;
+  background-color: #ffff;
+  color: rgb(201, 33, 201);
+  font-family: "Lato", sans-serif;
+  width: 50vh;
+  height: 5vh;
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-top: 8px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.list-item:hover {
+  background-color: rgba(0, 96, 241, 0.425);
+}
+
+.list-item:hover {
+  color: rgb(255, 255, 255);
+  /* text-decoration: line-through; */
+}

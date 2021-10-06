@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="showTime()">
+    <h1>Clock</h1>
+    <!-- Set Alarm Clock -->
+    <section class="container">
+      <form id="new-alarm-form">
+        <input
+          class="set-time-input"
+          onchange="setAlarmTime(this.value)"
+          name="alarmTime"
+          type="datetime-local"
+          id="item-input"
+        />
+
+        <button type="submit" onclick="setAlarm()" class="button set-alarm">
+          Set Alarm
+        </button>
+      </form>
+    </section>
+    <!-- The Alarm Set List  -->
+    <div id="list"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
